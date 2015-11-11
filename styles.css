@@ -1,5 +1,9 @@
 .row, .back-row {
 	border: 1px solid #000000;
+	padding-left: 5px;
+}
+.back-row {
+	display: inline-block;
 }
 .seat {
 	margin: 5px 5px 0 0;
@@ -7,6 +11,13 @@
 	height: 50px;
 	width: 50px;
 	background-color: #000000;
+}
+.not-seat {
+	margin: 5px 5px 0 0;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #FFFFFF;
 }
 .seat:hover {
 	opacity: 0.4;
